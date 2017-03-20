@@ -1,0 +1,39 @@
+<ion-view view-title="First-page">
+  <ion-content >
+  	
+  	<ion-slide-box delegate-handle='j1' does-continue='true' pager-click='fun(index)' slide-interval=4000 auto-play='true' show-pager='true'>
+		  	<ion-slide>
+		    	<div class="box blue"><h1>img1</h1></div>
+		  	</ion-slide>
+		  	<ion-slide>
+		    	<div class="box darkorange"><h1>img2</h1></div>
+		 	</ion-slide>
+		  	<ion-slide>
+		    	<div class="box pink"><h1>img3</h1></div>
+		  	</ion-slide>
+		</ion-slide-box>
+  	<div class="row">
+				<div class="col positive-bg">1</div>
+				<div class="col dark-bg">2</div>
+				<div class="col positive-bg">3</div>
+				<div class="col dark-bg">4</div>
+			</div>
+			<div class="row">
+				<div class="col col-50 positive-bg">1</div>
+				<div class="col dark-bg">2</div>
+				<div class="col positive-bg">3</div>
+				<div class="col col-25 dark-bg">4</div>     
+			</div>
+			<div class="row">
+				<div class="col col-50 positive-bg">1</div>
+				<div class="col col-offset-25 col-20 dark-bg">2</div> <!--.col-offset-78==margin-left:78%;-->
+			</div>
+			<div class="row">
+			  <div class="col col-top positive-bg">1</div>
+			  <div class="col col-center dark-bg">2</div>
+			  <div class="col col-bottom positive-bg">3</div>
+			  <div class="col dark-bg">1<br>2<br>3<br>4</div>
+			</div>
+   
+  </ion-content>
+</ion-view>

@@ -1,0 +1,25 @@
+	<ion-view view-title="Second-page">	
+		<div class="bar bar-subheader">
+			<div class="button-bar">
+				<a class="button button-balanced button-clear bbb">News</a>
+				<a class="button button-balanced button-clear">Games</a>
+				<a class="button button-balanced button-clear">Music</a>
+				<a class="button button-balanced button-clear">Goods</a>
+			</div>
+		</div>
+		
+		<ion-content class="has-subheader">
+		
+			<ion-list>
+				<ion-item class="item item-thumbnail-left" ng-repeat='item in items track by $index' href='#/tab/news/{{item.aid}}'>
+					<img ng-src="{{imageUrl}}{{item.pic}}">
+					<h2>{{item.title }}</h2>
+				</ion-item>
+			</ion-list>
+
+			<ion-infinite-scroll ng-if="jj" on-infinite="loadMoreData()">
+			  	<!--滚动到底部触发 distance='10%'-->
+			</ion-infinite-scroll>
+
+		</ion-content>
+	</ion-view>
