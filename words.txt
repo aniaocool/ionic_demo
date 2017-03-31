@@ -1,0 +1,1 @@
+[{"exp":"I want an apple","exp2":"NiaoGe is fool","exptrans":"我想要一颗苹果","exptrans2":"NiaoGe是笨蛋","extra":"Fuck NiaoGe apple","extra2":"Fuck fool NiaoGe","id":"1","name":"apple","name2":"fool","open":"0","say":"英[??pl] 美[??p?l]","say2":"英[??pl] 美[??p?l]","time":"03/31","translate":"苹果，苹果公司，苹果树","translate2":"蠢；傻瓜；笨蛋"}]
